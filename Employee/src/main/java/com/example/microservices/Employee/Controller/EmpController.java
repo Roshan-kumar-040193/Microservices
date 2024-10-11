@@ -17,7 +17,7 @@ public class EmpController {
 
     @GetMapping("/getEmployee/{id}")
     public CompletableFuture<EmployeeResponse> getAddressById(@PathVariable int id){
-       return empService.getEmployeeById(id);
+       return empService.getEmployeeByIdUsingWebClient(id);
     }
     public void getAddresses(){
 
