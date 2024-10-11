@@ -22,11 +22,6 @@ public class EmpService {
 
     public CompletableFuture<EmployeeResponse> getEmployeeById(int id){
 
-        Supplier s = ()->
-            restTemplate.getForObject("http://localhost:8082/getAddress/"+id, AddressResponse.class);
-
-        Future<AddressResponse> future = CompletableFuture.supplyAsync(()-> (AddressResponse) s);
-
         CompletableFuture<EmployeeResponse> employeeFuture = CompletableFuture.supplyAsync(() -> {
             Employee emp = empDao.getEmployeeById(id);
             EmployeeResponse employeeResponse = new EmployeeResponse();
