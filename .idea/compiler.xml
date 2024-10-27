@@ -7,9 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Address" />
-        <module name="Address (1)" />
         <module name="Employee" />
+        <module name="Address" />
+        <module name="Student3" />
+        <module name="Teacher" />
+        <module name="Student1" />
+        <module name="Student2" />
+        <module name="Address (1)" />
+        <module name="ServiceDiscovery" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +23,11 @@
       <module name="Address" options="-parameters" />
       <module name="Address (1)" options="-parameters" />
       <module name="Employee" options="-parameters" />
+      <module name="ServiceDiscovery" options="-parameters" />
+      <module name="Student1" options="-parameters" />
+      <module name="Student2" options="-parameters" />
+      <module name="Student3" options="-parameters" />
+      <module name="Teacher" options="-parameters" />
     </option>
   </component>
 </project>

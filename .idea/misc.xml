@@ -7,10 +7,19 @@
         <option value="$PROJECT_DIR$/Employee/pom.xml" />
         <option value="$PROJECT_DIR$/Address/pom.xml" />
         <option value="$PROJECT_DIR$/Address_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ServiceDiscovery/pom.xml" />
+        <option value="$PROJECT_DIR$/Student1/Student1/pom.xml" />
+        <option value="$PROJECT_DIR$/Student2/Student2/pom.xml" />
+        <option value="$PROJECT_DIR$/Student3/Student3/pom.xml" />
+        <option value="$PROJECT_DIR$/Teacher/Teacher/pom.xml" />
+        <option value="$PROJECT_DIR$/Teacher/pom.xml" />
+        <option value="$PROJECT_DIR$/Student1/pom.xml" />
+        <option value="$PROJECT_DIR$/Student2/pom.xml" />
+        <option value="$PROJECT_DIR$/Student3/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21_PREVIEW" project-jdk-name="22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
